@@ -1,0 +1,45 @@
+# JetBrains / WebStorm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Node / package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+.pnp.js
+
+# Build / output
+dist/
+build/
+out/
+coverage/
+lib/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs and runtime files
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / caches
+.vscode/
+.cache/
+parcel-cache/
+.sass-cache/
