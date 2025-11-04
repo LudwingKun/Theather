@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+h1,h2,h3 {
+    font-family: 'Playfair Display', serif !important;
+}
+#titlePad{
+    background-color: #800020 !important;
+}
+.bg-bordeaux{
+    background-color: #800020 !important;
+    color: white !important;
+    border-radius: 1rem !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3) !important;
+}

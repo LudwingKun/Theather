@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenota il tuo posto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+<section  class=" bg-dark py-5 text-white ">
+    <div id="prenotazioni" class="container">
+        <h2 class="text-center mb-4">Prenota i tuoi biglietti</h2>
+        <h2><%= spettacolo.titolo %></h2>
+        <p><strong>Data selezionata:</strong> <%= dataSelezionata %></p>
+        <p><%= spettacolo.descrizione %></p>
+
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Il tuo nome">
+            </div>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Numero posti</label>
+                <input type="number" class="form-control" id="nome" placeholder="es: 1,2,5,...">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="La tua email">
+            </div>
+            <div class="mb-3" > Ti invieremo una mail di conferma con i dati della prenotazione</div>
+            <button type="submit" class="btn btn-primary">Prenota</button>
+        </form>
+    </div>
+</section>
+<!-- Contatti -->
+<section id="contatti" class="container py-5">
+    <h2 class="text-center mb-4">Contattaci</h2>
+    <p class="text-center">Email: <a href="mailto:info@compagnia.com">info@compagnia.com</a></p>
+</section>
+
+</body>

@@ -1,0 +1,40 @@
+[
+  {
+
+    "id": 1,
+    "titolo": "Alice nel Paese delle Meraviglie",
+    "data": "15 Maggio 2026",
+    "descrizione": "Un viaggio nel mondo magico di Alice, tra sogno e realtà.",
+    "immagine": "/images/logoAlice.png",
+    "link": "/spettacoli/alice"
+  },
+  {
+
+    "id": 2,
+    "titolo": "Alice nel Paese delle Meraviglie",
+    "data": "16 Maggio 2026",
+    "descrizione": "Un viaggio nel mondo magico di Alice, tra sogno e realtà.",
+    "immagine": "/images/logoAlice.png",
+    "link": "/spettacoli/alice"
+
+  },
+  {
+    "id": 3,
+    "titolo": "Alice nel Paese delle Meraviglie",
+    "data": "22 Maggio 2026",
+    "descrizione": "Un viaggio nel mondo magico di Alice, tra sogno e realtà.",
+    "immagine": "/images/logoAlice.png",
+    "link": "/spettacoli/alice"
+
+  },
+  {
+
+    "id": 4,
+    "titolo": "Alice nel Paese delle Meraviglie",
+    "data": "23 Maggio 2026",
+    "descrizione": "Un viaggio nel mondo magico di Alice, tra sogno e realtà.",
+    "immagine": "/images/logoAlice.png",
+    "link": "/spettacoli/alice"
+
+  }
+]
